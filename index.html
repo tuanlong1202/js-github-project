@@ -3,9 +3,8 @@
   <meta charset='UTF-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
-  <title>Document</title>
-  <script src='js/index.js'></script>
   <link rel='stylesheet' href='index.css'/>
+  <title>Document</title>
 </head>
 <body>
   <div id='main'>
@@ -15,19 +14,22 @@
     <form id='github-form'>
       <input id='search' type='text' name='search'>
       <input type='submit' name='submit'/>
+      <br>
+      <input type="radio" id="radio_user" name="search_type" value="user_list" checked>
+      <label for="radio_user">User</label>
+      <input type="radio" id="radio_repos" name="search_type" value="repos_list">
+      <label for="radio_repos">Repos</label><br>    
     </form>
 
     <div id='github-container'>
       <ul id='user-list'>
-
       </ul>
 
       <ul id='repos-list'>
-
       </ul>
     </div>
 
   </div>
-
+<script src='js/index.js'></script>
 </body>
 </html>

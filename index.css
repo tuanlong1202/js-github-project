@@ -11,3 +11,40 @@
 ul {
   list-style: none;
 }
+
+#github-container #user-list div {
+  display:inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+#github-container #user-list {
+  min-width: 50%;
+}
+
+#github-container #user-list div img {
+  border-radius: 50%;
+  margin: 2em;
+  width: 50;
+  height: 50;
+}
+
+#github-container #user-list div a {
+  font-weight: bold;
+  color: blue;
+  text-decoration:none;
+}
+
+#github-container #repos-list div {
+  width: 100%;
+  display: inline-block;
+}
+
+#github-container #repos {
+  max-width: 50%;
+}
+
+#github-container #repos-list div a {
+  color:blue;
+  text-decoration: none;
+}
